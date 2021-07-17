@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --runInBand",
     "test:watch": "jest --runInBand --watchAll",
-    "cover": "jest --coverage"
+    "cover": "jest --coverage",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
